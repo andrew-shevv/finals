@@ -35,6 +35,15 @@
     text-decoration: none;
 }
 
+.button {
+    transition: 0.3s;
+    opacity: 0.85;
+}
+
+.button:hover {
+    opacity: 1;
+}
+
 .interactable-txt {
     font-weight: 400;
     font-size: 16px;
@@ -77,7 +86,9 @@
 
 .login-button {
     border: none;
+    border-radius: 18px;
     background: none;
+    padding: 10px;
 }
 
 .register-button {
