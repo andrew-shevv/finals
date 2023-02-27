@@ -18,6 +18,10 @@
     margin: 0 auto;
 }
 
+.visible-md-sm {
+    display: none;
+}
+
 .flex {
     display: flex;
 }
@@ -81,6 +85,8 @@
 }
 
 .account-info_flex {
+    justify-content: center;
+    align-items: center;
     gap: 40px;
 }
 
@@ -472,4 +478,132 @@
 
 .highlight {
     color: #b6b619;
+}
+
+@media screen and (max-width: 1260px) and (min-width: 900px) {
+    .container{
+        max-width: 1160px;
+    }
+
+    .container-small {
+        max-width: 960px;
+    }
+    
+    .invisible-md-sm {
+        display: none;
+    }
+
+    .visible-md-sm {
+        display: inline-block;
+    }
+
+    .flex-md-sm {
+        flex-direction: column;
+        justify-content: center;
+        gap: 22px;
+    }
+
+    .flexorder-md-sm {
+        order: 1;
+    }
+
+    .padded-md-sm {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .information__content {
+        padding-left: 0;
+        padding-bottom: 100px;
+    }
+
+    .graphs__small-graph {
+        width: 760px;
+    }
+
+    .trusted-by_flex {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    img {
+        max-width: 320px;
+    }
+
+    .container{
+        max-width: 760px;
+    }
+
+    .container-small {
+        max-width: 660px;
+    }
+
+    .invisible-md-sm {
+        display: none;
+    }
+
+    .invisible-sm {
+        display: none;
+    }
+
+    .visible-md-sm {
+        display: inline-block;
+    }
+
+    .flex-md-sm {
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .flex-sm {
+        display: flex;
+        gap: 15px;
+    }
+
+    .flexorder-md-sm {
+        order: 1;
+    }
+
+    .padded-md-sm {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .information__content {
+        padding-left: 0;
+        padding-bottom: 70px;
+    }
+
+    .features {
+        text-align: left;
+    }
+
+    .plans-grid {
+        grid-auto-flow: column;
+        overflow: scroll;
+    }
+
+    .plan__button {
+        margin: 0 15px 30px 15px;
+    }
+
+    .ending {
+        padding-top: 50px;
+    }
+
+    .form {
+        padding: 12px 20px;
+    }
+
+    .footer {
+        margin-top: 50px;
+        padding: 44px 21px 40px 21px;
+    }
+
+    .footer_flex {
+        gap: 70px;
+    }
 }

@@ -13,11 +13,11 @@
 </head>
 <body class="page">
     <div class="main-screen">
-        <header class="header flex header_flex">
+        <header class="header flex header_flex padded-md-sm">
             <a href="#" class="link logo-link">
                 <img src="img/logo.svg" alt="logo" class="logo header__logo">
             </a>
-            <nav class="nav header__nav flex nav_flex">
+            <nav class="nav header__nav flex nav_flex invisible-md-sm">
                 <a href="#" class="link txt interactable-txt nav__link">Products</a>
                 <a href="#" class="link txt interactable-txt nav__link">Pricing</a>
                 <a href="#" class="link txt interactable-txt nav__link">FAQ</a>
@@ -28,13 +28,14 @@
                 <button type="button" class="button header__button login-button">
                     <span class="button__inner txt interactable-txt">Sign In</span>
                 </button>
-                <button type="button" class="button header__button register-button">
+                <button type="button" class="button header__button register-button invisible-md-sm">
                     <span class="button__inner txt interactable-txt">Sign Up</span>
                 </button>
+                <label for="hamburger" class="visible-md-sm">&#9776;</label>
             </div>
         </header>
-        <div class="information flex information_flex">
-            <div class="information__content">
+        <div class="information flex information_flex flex-md-sm padded-md-sm">
+            <div class="information__content flexorder-md-sm">
                 <h1 class="information__title txt">
                     Monitor your business on real-time dashboard
                 </h1>
@@ -48,12 +49,12 @@
                 </button>
             </div>
             <div class="graphs information__graphs">
-                <img src="img/main-screen-graph_small.svg" alt="small graph" class="graphs__small-graph">
-                <img src="img/main-screen-graph_big.svg" alt="big graph" class="graphs__big-graph">
+                <img src="img/main-screen-graph_small.svg" alt="small graph" class="graphs__small-graph visible-md-sm">
+                <img src="img/main-screen-graph_big.svg" alt="big graph" class="graphs__big-graph invisible-md-sm">
             </div>
         </div>
     </div>
-    <div class="container primary-content">
+    <div class="container primary-content padded-md-sm">
         <div class="features">
             <h2 class="features__title txt">Main Features</h2>
             <p class="features__paragraph txt">
@@ -63,35 +64,41 @@
                 Vitae et, tortor pulvinar risus pulvinar sit amet. 
                 Id vel in nam malesuada.
             </p>
-            <div class="highlights flex highlights_flex">
-                <div class="highlights__example">
+            <div class="highlights flex highlights_flex flex-md-sm">
+                <div class="highlights__example flex-sm">
                     <img src="img/Icon1.svg" alt="icon 1" class="highlights__icon">
-                    <h3 class="highlights__title txt">Monitoring 24/7</h3>
-                    <p class="highlights__paragraph txt">
-                        Lorem ipsum dolor sit amet, consectetur adipis cing elit. 
-                        Elementum nisi aliquet volutpat.
-                    </p>
+                    <div class="highlights__content">
+                        <h3 class="highlights__title txt">Monitoring 24/7</h3>
+                        <p class="highlights__paragraph txt">
+                            Lorem ipsum dolor sit amet, consectetur adipis cing elit. 
+                            Elementum nisi aliquet volutpat.
+                        </p>
+                    </div>
                 </div>
-                <div class="highlights__example">
+                <div class="highlights__example flex-sm">
                     <img src="img/Icon2.svg" alt="icon 2" class="highlights__icon">
-                    <h3 class="highlights__title txt">Widget System</h3>
-                    <p class="highlights__paragraph txt">
-                        Sapien in etiam vitae nibh nunc mattis imperdiet sed nullam. 
-                        Vitae et, tortor pulvinar risus pulvinar.
-                    </p>
+                    <div class="highlights__content">
+                        <h3 class="highlights__title txt">Widget System</h3>
+                        <p class="highlights__paragraph txt">
+                            Sapien in etiam vitae nibh nunc mattis imperdiet sed nullam. 
+                            Vitae et, tortor pulvinar risus pulvinar.
+                        </p>
+                    </div>
                 </div>
-                <div class="highlights__example">
+                <div class="highlights__example flex-sm">
                     <img src="img/Icon3.svg" alt="icon 3" class="highlights__icon">
-                    <h3 class="highlights__title txt">Best Performance</h3>
-                    <p class="highlights__paragraph txt">
+                    <div class="highlights__content">
+                        <h3 class="highlights__title txt">Best Performance</h3>
+                        <p class="highlights__paragraph txt">
                         Lorem ipsum dolor sit amet, consectetur adipis cing elit. 
                         Elementum nisi aliquet volutpat.
-                    </p>
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="benefits flex benefits_flex">
-            <div class="benefit flex benefit_flex">
+            <div class="benefit flex benefit_flex flex-md-sm">
                 <div class="benefit__txt">
                     <h2 class="benefit__title txt">Automated Reports & Widget Alerts</h2>
                     <p class="benefit__paragraph txt">
@@ -103,8 +110,8 @@
                 </div>
                 <img src="img/benefit1.svg" alt="benefit 1" class="benefit__graph">
             </div>
-            <div class="benefit flex benefit_flex">
-                <img src="img/benefit2.svg" alt="benefit 2" class="benefit__graph">
+            <div class="benefit flex benefit_flex flex-md-sm">
+                <img src="img/benefit2.svg" alt="benefit 2" class="benefit__graph flexorder-md-sm">
                 <div class="benefit__txt">
                     <h2 class="benefit__title txt">Fully customizable to address your needs</h2>
                     <p class="benefit__paragraph txt">
@@ -115,7 +122,7 @@
                     </p>
                 </div>
             </div>
-            <div class="benefit flex benefit_flex">
+            <div class="benefit flex benefit_flex flex-md-sm">
                 <div class="benefit__txt">
                     <h2 class="benefit__title txt">Pre-built Dashboard Templates</h2>
                     <p class="benefit__paragraph txt">
@@ -130,7 +137,7 @@
         </div>
     </div>
     <div class="pricing-plans_background">
-        <div class="container pricing-plans">
+        <div class="container pricing-plans padded-md-sm">
             <h2 class="pricing-plans__title txt">Pricing Plans</h2>
             <p class="pricing-plans__paragraph txt">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -172,8 +179,8 @@
         </div>
     </div>
     <div class="ending">
-        <div class="sign-up flex sign-up_flex container-small">
-            <div class="sign-up__partners">
+        <div class="sign-up flex sign-up_flex container-small padded-md-sm flex-md-sm">
+            <div class="sign-up__partners invisible-sm">
                 <h3 class="sign-up__title txt">See why the world’s best companies use Analytics</h3>
                 <div class="trusted-by flex trusted-by_flex">
                     <hr class="sign-up__break">
@@ -212,7 +219,7 @@
             <a href="#" class="link logo-link">
                 <img src="img/logo-dark.svg" alt="logo dark" class="logo footer__logo">
             </a>
-            <nav class="nav footer__nav flex nav_flex">
+            <nav class="nav footer__nav flex nav_flex invisible-md-sm">
                 <a href="#" class="link txt footer__interactable-txt nav__link">Products</a>
                 <a href="#" class="link txt footer__interactable-txt nav__link">Pricing Plans</a>
                 <a href="#" class="link txt footer__interactable-txt nav__link">FAQ</a>
